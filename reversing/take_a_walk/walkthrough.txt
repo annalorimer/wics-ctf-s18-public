@@ -1,0 +1,5 @@
+1. You're given just the binary of the firmware - so we need a way to extract the useful information from this. We can use binwalk for this!
+2. Running binwalk on the binary gives you a guestimate of what the binary contains, in this case it contains what looks like a filesystem. 
+3. Run binwalk with the -e option to extract the files.
+4. The files won't have the original names, so you'll have to search through them to find the reset instructions.
+

@@ -1,0 +1,5 @@
+Oh no! You were trying to make toast with your internet-conencted toaster but you got a crumb on the motherboard and bricked it. 
+
+Thankfully, you managed to make a copy of the firmware before you decided to make deliciously toasted bread. 
+
+Can you recover the code to reset your toaster?

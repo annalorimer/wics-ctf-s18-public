@@ -1,0 +1,4 @@
+The ENIAC was the first all-electronic digital computer in the US. It was comprised of approximately 18,000 vacuum tubes and forty,
+8-foot panels. The ENIAC was eventually turned into the first "stored program" in the world. Only six programmers ever programmed this
+computer at the machine level. All six of these programmers were women. For this flag, combine the first letter of each of these women,
+sorted in an order.

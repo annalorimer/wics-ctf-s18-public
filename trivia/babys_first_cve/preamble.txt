@@ -1,0 +1,3 @@
+Recently a Unbelievably Super-cool language got it's first, Totally cool, official CVE. What was the CVE number?
+
+Note: Replace any dashes with underscores.

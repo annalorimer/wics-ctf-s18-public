@@ -1,0 +1,1 @@
+1. The message is encrypted using ROT13 a.k.a a caesar shift cipher.

@@ -1,0 +1,1 @@
+1. This is a reference to the 1995 movie Hackers. Googling the character names and the keyword 'school' should return the imdb page (or similar) with the answer.

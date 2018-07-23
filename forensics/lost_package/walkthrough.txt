@@ -1,0 +1,6 @@
+You'll want Wireshark for this. 
+
+1. Open the PCAP file in Wireshark.
+2. Wireshark should show an error that one of the packets has too much data in it.
+3. Looking through the packets on wireshark, notice that one packet has a "Bogus TCP header length"
+4. Inspect the packet data to find the flag

@@ -1,0 +1,20 @@
+You're playing your favourite Dance Dance Revolution (DDR) song, Goin' Under. Here is a
+recording of you dancing to it: https://www.youtube.com/watch?v=HbejryzlTsk
+
+In DDR, you can make four different dance steps with your feet: left, down, up, and right.
+
+You want to get even better at your favourite song, so you decide to practice one of these
+four directions of steps so that you're really good at making that direction of step.
+
+You find the plain-text file that encodes your favourite song, at all of its five difficulties.
+It is in the open-source .sm file format, described here: https://github.com/stepmania/stepmania/wiki/sm
+
+Specifically, on every line of the format 'ldur\n', each character is either '0' for no step,
+or any other character for the existence of a step. A non-0 character in the 'l' position
+means there is a left step at a certain beat, and similarily for the 'd' (down), 'up' (up),
+and 'r' (right) positions. Thus, the line '1010\n' encodes a simultaneous left and up step.
+
+What is the most common direction of step in "Goin' Under.sm", across all difficulties of the
+song? And how many of the most common direction of step are there?
+
+This three-digit number is the flag.

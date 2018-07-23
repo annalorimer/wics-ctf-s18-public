@@ -1,0 +1,15 @@
+You and two of your frenemies have been put into a group exam together.
+The exam is required in order for you to continue your degree.
+
+The exam is at: [HOST IP ADDRESS]:[SERVER PORT NUMBER, default 8080]
+
+There must be answers somewhere on the server. 
+
+You notice that the flag is the value of tau from question one, the part 
+after the decimal point, if there is one.
+
+[HINT]
+It seems that the pages of the exam that you can view remind you
+suspiciously of a copy of the course textbook your friends pirated,
+and it strikes you that the answer key page was
+the next page after the end of the visible exam pages.

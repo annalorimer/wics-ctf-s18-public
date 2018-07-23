@@ -1,0 +1,5 @@
+Alice just received a lovely letter from the Mad Hatter, but the Queen of Hearts (meanie that she is) has gone and ruined the whole thing.
+It seems she's replaced every occurence of the letter w and W in the Mad Hatter's letter with 'q' and 'Qu'!!
+
+Alice can't possibly understand the letter now. Can you help Alice out? She'd love to respond to the Mad Hatter with a nice answer
+for his question. (The flag is the answer to the mad hatters question in digits)

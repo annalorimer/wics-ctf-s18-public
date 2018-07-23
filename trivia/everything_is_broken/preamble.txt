@@ -1,0 +1,3 @@
+Earlier this year, we learned about a catastrophic vulnerability that affected almost every computer in the known universe. This vulnerability exploits a race-condition that is inherent in many modern CPUs such that a rogue process can read all memory, even if it does not have the authorization to do so. 
+
+What was the name of this vulnerability (not the CVE number)? 

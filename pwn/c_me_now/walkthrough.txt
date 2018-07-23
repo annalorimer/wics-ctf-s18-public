@@ -1,0 +1,6 @@
+At first glance, it looks like there should be a buffer overflow vulnerability since user-input is copied into a buffer.
+However, there is a bounds check in the call to fgets on line 23. 
+
+Where else is user-input used? 
+
+printf is called on line 15. It's vulnerable to a format string attack.

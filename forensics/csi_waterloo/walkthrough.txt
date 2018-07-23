@@ -1,0 +1,4 @@
+1. At first glance, this USB only has pictures of Corgis and a misleading important information file. 
+2. Running git branch -a reveals that this is a git directory and there are other branches!
+3. In the branch secret-recipes there's a file with a recipe for chocolate mousse.
+4. The title in that file is the flag.

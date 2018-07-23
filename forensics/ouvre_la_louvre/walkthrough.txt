@@ -1,0 +1,4 @@
+You'll need a hex editor for this!
+
+1. Open the image in a hex editor
+2. Search for the flag brackets.

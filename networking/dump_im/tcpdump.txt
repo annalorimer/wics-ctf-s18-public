@@ -1,0 +1,27 @@
+fboxwala@zinnia ~/wics-ctf-s18 $ sudo tcpdump
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on wlp4s0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:19:21.440908 IP fboxwala-thinkpad.51762 > ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997: Flags [P.], seq 3094404667:3094404709, ack 2890010736, win 290, options [nop,nop,TS val 3891682742 ecr 1655871848], length 42
+23:19:21.442070 IP fboxwala-thinkpad.36666 > _gateway.domain: 32505+ PTR? 5.39.164.35.in-addr.arpa. (42)
+23:19:21.467605 IP _gateway.domain > fboxwala-thinkpad.36666: 32505 1/5/6 PTR ec2-35-164-39-5.us-west-2.compute.amazonaws.com. (324)
+23:19:21.468056 IP fboxwala-thinkpad.57076 > _gateway.domain: 61862+ PTR? 103.0.168.192.in-addr.arpa. (44)
+23:19:21.470927 IP ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997 > fboxwala-thinkpad.51762: Flags [.], ack 42, win 331, options [nop,nop,TS val 1655872589 ecr 3891682742], length 0
+23:19:21.472127 IP _gateway.domain > fboxwala-thinkpad.57076: 61862 NXDomain 0/1/0 (121)
+23:19:21.472888 IP fboxwala-thinkpad.42308 > _gateway.domain: 23534+ PTR? 1.0.168.192.in-addr.arpa. (42)
+23:19:21.476705 IP _gateway.domain > fboxwala-thinkpad.42308: 23534 NXDomain 0/1/0 (119)
+23:19:21.491901 IP fboxwala-thinkpad.51762 > ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997: Flags [P.], seq 42:83, ack 1, win 290, options [nop,nop,TS val 3891682793 ecr 1655872589], length 41
+23:19:21.535213 IP ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997 > fboxwala-thinkpad.51762: Flags [.], ack 83, win 331, options [nop,nop,TS val 1655872602 ecr 3891682793], length 0
+23:19:21.535277 IP fboxwala-thinkpad.51762 > ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997: Flags [P.], seq 83:573, ack 1, win 290, options [nop,nop,TS val 3891682836 ecr 1655872602], length 490
+23:19:21.575109 IP ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997 > fboxwala-thinkpad.51762: Flags [.], ack 573, win 331, options [nop,nop,TS val 1655872613 ecr 3891682836], length 0
+23:19:21.764738 IP _gateway.33541 > broadcasthost.7437: UDP, length 173
+23:19:22.199977 IP fboxwala-thinkpad.53100 > 192.168.77.117.microsoft-ds: Flags [S], seq 4107545898, win 29200, options [mss 1460,sackOK,TS val 1425894215 ecr 0,nop,wscale 7], length 0
+23:19:22.200044 IP fboxwala-thinkpad.35608 > 192.168.77.117.netbios-ssn: Flags [S], seq 3333588936, win 29200, options [mss 1460,sackOK,TS val 1425894215 ecr 0,nop,wscale 7], length 0
+23:19:22.200341 IP fboxwala-thinkpad.34773 > _gateway.domain: 7228+ PTR? 117.77.168.192.in-addr.arpa. (45)
+23:19:22.272880 IP _gateway.domain > fboxwala-thinkpad.34773: 7228 NXDomain 0/1/0 (122)
+23:19:22.469372 IP fboxwala-thinkpad.51762 > ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997: Flags [P.], seq 573:641, ack 1, win 290, options [nop,nop,TS val 3891683770 ecr 1655872613], length 68
+23:19:22.469532 IP fboxwala-thinkpad.51790 > ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997: Flags [S], seq 1459805971, win 29200, options [mss 1460,sackOK,TS val 3891683770 ecr 0,nop,wscale 7], length 0
+23:19:22.469623 IP fboxwala-thinkpad.34890 > ec2-52-33-117-189.us-west-2.compute.amazonaws.com.9997: Flags [S], seq 1946201793, win 29200, options [mss 1460,sackOK,TS val 505132829 ecr 0,nop,wscale 7], length 0
+23:19:22.469901 IP fboxwala-thinkpad.55404 > _gateway.domain: 16044+ PTR? 189.117.33.52.in-addr.arpa. (44)
+23:19:22.475698 IP _gateway.domain > fboxwala-thinkpad.55404: 16044 1/5/6 PTR ec2-52-33-117-189.us-west-2.compute.amazonaws.com. (328)
+23:19:22.511657 IP ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997 > fboxwala-thinkpad.51790: Flags [S.], seq 1826583679, ack 1459805972, win 14480, options [mss 1460,sackOK,TS val 1655872846 ecr 3891683770,nop,wscale 7], length 0
+23:19:22.511788 IP fboxwala-thinkpad.51790 > ec2-35-164-39-5.us-west-2.compute.amazonaws.com.9997: Flags [.], ack 1, win 229, options [nop,nop,TS val 3891683813 ecr 1655872846], length 0

@@ -1,0 +1,33 @@
+There are thousands of lines in the included .sm file, so you don't want to count them yourself.
+
+The only lines you care about are 5-character-long lines ending with a newline.
+
+The first character is 0 if there is no left step, something else otherwise.
+Second character corresponds to down
+Third character corresponds to up
+Fourth character corresponds to right
+
+e.g.
+
+0000 is no steps
+1000 is a left step
+2000 is a different kind of left step but still a step
+0110 counts as both an up and down step
+
+the following python script prints out the number of each direction of step:
+
+
+#!/usr/bin/env python3
+
+with open("Goin' Under.sm") as f:
+    relevant_lines = [ line for line in f if len(line) == 5 ]
+    first = 0
+    second = 0
+    third = 0
+    fourth = 0
+    for line in relevant_lines:
+        if line[0] != '0': first += 1
+        if line[1] != '0': second += 1
+        if line[2] != '0': third += 1
+        if line[3] != '0': fourth += 1
+    print(first, second, third, fourth)

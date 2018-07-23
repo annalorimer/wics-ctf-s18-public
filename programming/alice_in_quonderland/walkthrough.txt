@@ -1,0 +1,8 @@
+I would personally do this in bash. It's a one-liner: replace all the Qu's and all the qu's with w, filter down to only the w's, and
+count them.
+
+fboxwala@zinnia ~/wics-ctf-s18/text_processing $ sed 's/Qu/w/g' letter.txt | sed 's/qu/w/g'  |  tr -cd 'w' | wc -c
+
+70
+
+Python works too, harder though.

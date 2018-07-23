@@ -1,0 +1,7 @@
+Traceroute like a really cool program that shows you the life of a packet from the users end to it's final destinations. It does this
+by creating UDP with custom TTl's in the header. Basically, traceroute makes a packet addressed to wics.uwaterloo.ca, but gives it
+a header that says "kill this packet once it has made one destination hop". The first router to receive this packet sees this header,
+sends back an ack. This is how traceroute gets the info about where this packets first hop would be. It then doest the same thing, but with 
+a TTL of 2, and then 3, etc etc. 
+
+Based on this traceroute output, what city is the user (fboxwala) likely located?

@@ -1,0 +1,3 @@
+A missing bounds-check in the OpenSSL TLS heartbeat extension caused a vulnerability that allowed hackers to read more data than should be allowed.
+
+What was the name of this vulnerability (not the CVE number)?

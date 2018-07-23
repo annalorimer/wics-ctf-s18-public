@@ -1,0 +1,4 @@
+0. Players may want to google what a CVE is, but it isn't necessary to solve the challenge.
+1. Notice that the words are oddly capitalized.
+2. The capital letters spell "Rust".
+3. Google "Rust language CVE" to find the CVE number.
